@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of a Creative Developer">
+    <title>Portfolio | Rosselle Anne M. Penafiel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="fixed-header">
+        <div class="container header-container">
+            <a href="#" class="logo">Rosselle Anne<span class="dot"></span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <span class="eyebrow fade-in">Hello, I'm </span>
+                <h1 class="headline fade-in delay-1">Rosselle Anne <br> M. Penafiel</h1>
+                <p class="subtitle fade-in delay-2">BS Information Technology 3rd Year Student & Aspiring Developer.</p>
+                <div class="cta-group fade-in delay-3">
+                    <a href="#work" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-background">
+                <div class="glow-orb orb-1"></div>
+                <div class="glow-orb orb-2"></div>
+            </div>
+        </section>
+
+        <section id="work" class="section work">
+            <div class="container">
+                <h2 class="section-title fade-up">Selected Works</h2>
+                <div class="projects-grid">
+
+                    <!-- 
+                        PASTE YOUR PROJECTS BELOW THIS LINE 
+                        Copy the <article> block to add more projects.
+                    -->
+
+                    <!-- Example Project Card (Edit this!) -->
+                    <article class="project-card fade-up">
+                        <div class="card-image">
+                            <!-- You can specify a color gradient or an image here -->
+                            <div class="placeholder-img" style="background: linear-gradient(45deg, #FF6B6B, #556270);">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Project Title Here</h3>
+                            <p>Short description of your project. What did it do? What problem did it solve?</p>
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+                            <!-- Add your link in href="#" -->
+                            <a href="#" class="link-arrow">View Project &rarr;</a>
+                        </div>
+                    </article>
+
+                    <!-- End of Project List -->
+
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container about-grid">
+                <div class="about-text fade-up">
+                    <h2 class="section-title">About Me</h2>
+                    <p>I'm Rosselle, a 3rd Year BS Information Technology student with a passion for building websites.
+                        I am currently honing my skills in web development and design, exploring how to create
+                        user-friendly and visually appealing digital experiences.</p>
+                    <p>Fast-forward to today, I am focusing on my studies and working on personal projects to build my
+                        portfolio. My main goal is to create accessible, inclusive products and digital experiences.</p>
+
+                    <ul class="skills-list">
+                        <li>JavaScript (ES6+)</li>
+                        <li>TypeScript</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>Python</li>
+                        <li>AWS</li>
+                    </ul>
+                </div>
+                <div class="about-visual fade-up delay-1">
+                    <div class="profile-frame">
+                        <div class="profile-placeholder"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container narrow">
+                <h2 class="section-title center fade-up">Get In Touch</h2>
+                <p class="center-text fade-up delay-1">I am currently open to new opportunities and collaborations.
+                    Whether you have a question or just want to connect, feel free to reach out!</p>
+
+                <div class="contact-details fade-up delay-2"
+                    style="margin-bottom: 2rem; color: var(--text-muted); text-align: center;">
+                    <p style="margin-bottom: 0.5rem;"><strong>Email:</strong> rosselleanne.penafiel@evsu.edu.ph</p>
+                    <p style="margin-bottom: 0.5rem;"><strong>Facebook:</strong> Rosselle Anne Mindol Penafiel</p>
+                    <p style="margin-bottom: 0.5rem;"><strong>Instagram:</strong> <a
+                            href="https://instagram.com/rssll_anne" target="_blank"
+                            style="color: var(--primary);">@rssll_anne</a></p>
+                    <p style="margin-bottom: 0.5rem;"><strong>GitHub:</strong> <a href="https://github.com/Rssll01"
+                            target="_blank" style="color: var(--primary);">Rssll01</a></p>
+                </div>
+
+                <div class="contact-actions fade-up delay-3">
+                    <a href="mailto:rosselleanne.penafiel@evsu.edu.ph" class="btn btn-primary big">Say Hello</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.facebook.com/search/top?q=Rosselle+Anne+Mindol+Penafiel" target="_blank"
+                    aria-label="Facebook">FB</a>
+                <a href="https://instagram.com/rssll_anne" target="_blank" aria-label="Instagram">IG</a>
+                <a href="https://github.com/Rssll01" target="_blank" aria-label="GitHub">GH</a>
+                <a href="mailto:rosselleanne.penafiel@evsu.edu.ph" aria-label="Email">EM</a>
+            </div>
+            <p class="copyright">&copy; 2024 Built by Rosselle Anne M. Penafiel.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
