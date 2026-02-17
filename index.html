@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio of a Creative Developer">
-    <title>Portfolio | Rosselle Anne M. Penafiel</title>
+    <title>Rosselle Anne's Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
@@ -20,6 +20,7 @@
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#work">Work</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -58,28 +59,104 @@
                         Copy the <article> block to add more projects.
                     -->
 
-                    <!-- Example Project Card (Edit this!) -->
+                    <!-- Project 1: Image Based -->
                     <article class="project-card fade-up">
                         <div class="card-image">
-                            <!-- You can specify a color gradient or an image here -->
-                            <div class="placeholder-img" style="background: linear-gradient(45deg, #FF6B6B, #556270);">
-                            </div>
+
+                            <img src="assets/images/digital-design.jpg" alt="Digital Design" class="project-img">
                         </div>
                         <div class="card-content">
-                            <h3>Project Title Here</h3>
-                            <p>Short description of your project. What did it do? What problem did it solve?</p>
+                            <h3>Digital Design</h3>
+                            <p>Creative digital design projects showcasing visual storytelling.</p>
                             <div class="tech-stack">
-                                <span>HTML</span>
-                                <span>CSS</span>
-                                <span>JS</span>
+                                <span>Graphic Design</span>
+                                <span>Storytelling</span>
                             </div>
-                            <!-- Add your link in href="#" -->
+                            <a href="#" class="link-arrow">View Project &rarr;</a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Video Based -->
+                    <article class="project-card fade-up delay-1">
+                        <div class="card-media">
+                            <!-- Video Element -->
+                            <video controls class="project-video">
+                                <source src="assets/videos/project-video.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="card-content">
+                            <h3>Video Advertisement</h3>
+                            <p>A creative video showcasing dynamic editing and strong brand identity.</p>
+                            <div class="tech-stack">
+                                <span>Video Editing</span>
+                                <span>Brand</span>
+                            </div>
+                            <a href="#" class="link-arrow">Watch Video &rarr;</a>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Promotional Image -->
+                    <article class="project-card fade-up delay-2">
+                        <div class="card-image">
+                            <img src="assets/images/promotional.png" alt="Promotional Design" class="project-img">
+                        </div>
+                        <div class="card-content">
+                            <h3>Promotional Design</h3>
+                            <p>Eye-catching promotional graphics designed for maximum impact.</p>
+                            <div class="tech-stack">
+                                <span>Graphics</span>
+                                <span>Marketing</span>
+                            </div>
                             <a href="#" class="link-arrow">View Project &rarr;</a>
                         </div>
                     </article>
 
                     <!-- End of Project List -->
 
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills">
+            <div class="container">
+                <h2 class="section-title fade-up">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category fade-up">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>JavaScript (ES6+)</li>
+                            <li>React</li>
+                            <li>HTML5 / CSS3</li>
+                            <li>TypeScript</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category fade-up delay-1">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Python</li>
+                            <li>AWS</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category fade-up delay-2">
+                        <h3>Tools</h3>
+                        <ul>
+                            <li>Git / GitHub</li>
+                            <li>VS Code</li>
+                            <li>Postman</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category fade-up delay-3">
+                        <h3>Design & Editing</h3>
+                        <ul>
+                            <li>Figma</li>
+                            <li>Video Editing</li>
+                            <li>Digital Design</li>
+                            <li>Canva</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -94,18 +171,11 @@
                     <p>Fast-forward to today, I am focusing on my studies and working on personal projects to build my
                         portfolio. My main goal is to create accessible, inclusive products and digital experiences.</p>
 
-                    <ul class="skills-list">
-                        <li>JavaScript (ES6+)</li>
-                        <li>TypeScript</li>
-                        <li>React</li>
-                        <li>Node.js</li>
-                        <li>Python</li>
-                        <li>AWS</li>
-                    </ul>
+
                 </div>
                 <div class="about-visual fade-up delay-1">
                     <div class="profile-frame">
-                        <div class="profile-placeholder"></div>
+                        <img src="assets/images/profile-pic.jpg" alt="Rosselle Anne M. Penafiel" class="profile-img">
                     </div>
                 </div>
             </div>
@@ -117,18 +187,17 @@
                 <p class="center-text fade-up delay-1">I am currently open to new opportunities and collaborations.
                     Whether you have a question or just want to connect, feel free to reach out!</p>
 
-                <div class="contact-details fade-up delay-2"
-                    style="margin-bottom: 2rem; color: var(--text-muted); text-align: center;">
-                    <p style="margin-bottom: 0.5rem;"><strong>Email:</strong> rosselleanne.penafiel@evsu.edu.ph</p>
-                    <p style="margin-bottom: 0.5rem;"><strong>Facebook:</strong> Rosselle Anne Mindol Penafiel</p>
-                    <p style="margin-bottom: 0.5rem;"><strong>Instagram:</strong> <a
-                            href="https://instagram.com/rssll_anne" target="_blank"
-                            style="color: var(--primary);">@rssll_anne</a></p>
-
+                <div class="contact-details fade-up delay-2">
+                    <p><strong>Email:</strong> rosselleanne.penafiel@evsu.edu.ph</p>
+                    <p><strong>Facebook:</strong> Rosselle Anne Mindol Penafiel</p>
+                    <p><strong>Instagram:</strong> <a href="https://instagram.com/rssll_anne"
+                            target="_blank">@rssll_anne</a></p>
                 </div>
 
                 <div class="contact-actions fade-up delay-3">
-                    <a href="mailto:rosselleanne.penafiel@evsu.edu.ph" class="btn btn-primary big">Say Hello</a>
+                    <a href="https://www.facebook.com/rosselleanne.m.penafiel.5/directory_contact_info" target="_blank"
+                        class="btn btn-primary big">Say Hello</a>
+                    <a href="mailto:rosselleanne.penafiel@evsu.edu.ph" class="btn btn-outline big">Send Email</a>
                 </div>
             </div>
         </section>
@@ -140,11 +209,25 @@
                 <a href="https://www.facebook.com/search/top?q=Rosselle+Anne+Mindol+Penafiel" target="_blank"
                     aria-label="Facebook">FB</a>
                 <a href="https://instagram.com/rssll_anne" target="_blank" aria-label="Instagram">IG</a>
-
                 <a href="mailto:rosselleanne.penafiel@evsu.edu.ph" aria-label="Email">EM</a>
             </div>
             <p class="copyright">&copy; 2024 Built by Rosselle Anne M. Penafiel.</p>
+        </div>
     </footer>
+
+    <!-- Project Modal (Lightbox) -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <div id="modal-container">
+                <!-- Content injected via JS -->
+            </div>
+            <div class="modal-details">
+                <h3 id="modal-title">Project Title</h3>
+                <p id="modal-description">Project description goes here.</p>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
